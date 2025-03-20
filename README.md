@@ -1,7 +1,24 @@
 # nasm
 NASM
 
+![Instruction Set](https://www.cs.uaf.edu/2017/fall/cs301/reference/x86_64.html?authuser=0)
+![ASCII Table](https://www.ascii-code.com/)
+![Google Cloud Console](https://console.cloud.google.com/)
+
 * Google Cloud Platform (GCP) Debian/Linux Cloud Terminal
+  ```bash
+  $ sudo apt-get update
+  $ sudo apt-get -y install nasm
+  $ nasm --version
+
+  $ nasm -f elf helloworld.asm
+  $ ld -m  elf_i386 helloworld.o -o helloworld
+  $ ./helloworld
+  ```
+
+
+
+<!--
 * [source 1](https://www.youtube.com/watch?v=_JG4b7E_6-E) [source 2](https://www.youtube.com/watch?v=hBhaaOwuocU&list=RDCMUCYXWGO7hi4McH2qRLWq1dIQ&index=2) [source 3](https://ccm.net/faq/1559-compiling-an-assembly-program-with-nasm) [source 4](https://www.youtube.com/watch?v=A9jFiN7CzaE&list=PLCLxMnnAnGilzQsaxj507_p_7nCWT_Qe-) [source 5](https://www.youtube.com/watch?v=UYLA_fFdciA)
 
 ```bash
@@ -56,3 +73,4 @@ _start:
 ; $ ./balaman_lesson2 
 ; Assignment: Make an ASCII Art using the sample assembly codesm
 ```
+-->
