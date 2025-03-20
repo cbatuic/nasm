@@ -1,9 +1,9 @@
 # nasm
 NASM
 
-![Instruction Set](https://www.cs.uaf.edu/2017/fall/cs301/reference/x86_64.html?authuser=0)
-![ASCII Table](https://www.ascii-code.com/)
-![Google Cloud Console](https://console.cloud.google.com/)
+[Instruction Set](https://www.cs.uaf.edu/2017/fall/cs301/reference/x86_64.html?authuser=0)
+[ASCII Table](https://www.ascii-code.com/)
+[Google Cloud Console](https://console.cloud.google.com/)
 
 * Google Cloud Platform (GCP) Debian/Linux Cloud Terminal
   ```bash
